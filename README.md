@@ -1,3 +1,1 @@
 # LinuxBackup
-
-## Maciej B

@@ -1,0 +1,30 @@
+.Dd 15/5/2017
+.Dt linuxrestore 1      
+.Os Linux
+.Sh NAME                 
+.Nm linuxbackup
+.Nd odtwarzenie kopii zapasowej
+.Sh SYNOPSIS
+.Nm
+.Op OPTION="..."
+.Sh DESCRIPTION
+.Bl -tag -width -indent
+.It Fl -name='...'
+poczatek nazwy pliku z backupem
+.It Fl -date='...'
+czas, na który odtworzyć backup (lub najbliższy w przeszłości zawierający backup);
+format daty: rok_miesiąc_dzień_godzina_minuta_sekunda
+.It Fl -backup-dir='...'
+położenie pliku z backupami
+.It Fl -out-dir='...'
+lista rozszerzń plików; backupowane będa pliki z zadanego katalogu, które posiadają podane rozszerzenie
+.It Fl h -help
+pomoc
+.It Fl v -version
+wersja programu
+.El
+.Sh Author
+Written by Maciej Borzyszkowski.
+.Sh SEE ALSO
+.Xr linuxbackup 1 
+

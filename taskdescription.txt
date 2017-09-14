@@ -1,0 +1,37 @@
+Maciej Borzyszkowski, nr indeksu: 165407
+
+Kopia zapasowa - funkcjonalność
+----------------------------------
+1. Skrypt będzie umożliwiał tworzenie kopii zapasowych metodą przyrostową 
+   oraz odtwarzanie kopii plików na zadany przez użytkownika czas 
+   + zenity run 
+   + tekst  run
+   + man pages
+2. Tworzenie kopii zapasowej, opcje:
+    --name='początek nazwy pliku z backupem'
+	--full-interval='odstęp czasu pomiędzy pełnymi backupami'
+	--inc-interval='odstęp czasu pomiędzy pełnym backupem a przyrostowym 
+                        lub pomiędzy przyrostowymi'
+	--path='ścieżka wierzchołka drzewa katalogów do backupowania'
+	--gzip='wynikiem będzie plik skompresowany programem gzip'
+	--ext='lista rozszerzń plików; backupowane będą pliki z zadanego katalogu, 
+               które posiadają podane rozszerzenie'
+	--backup-dir='katalog, gdzie będą składane pliki backupów
+	-h lub --help pomoc
+	-v lub --version= wersja, autor
+	
+	W wyniku działania w katalogu 'backup-dir' powstaną pełne 
+        i przyrostowe kopie plików z zadanego katalogu.
+	Kopie będą plikami z rozszerzeniem 'tar' lub tgz, jeżeli użyto opcji --gzip.
+	Nazwa pliku będzie miała następującą postać:
+	- pełen backup: 
+			name_full_rok_miesiąc_dzień_godzina_minuta.tar
+	- backup przyrostowy: 
+			name_incr_rok_miesiąc_dzień_godzina_minuta.tar
+	
+3. Odtwarzenie kopii zapasowej:
+	--name='początek nazwy pliku z backupem'
+	--date='czas, na który odtworzyć backup (lub najbliższy w przeszłości zawierający backup); 
+			format daty: rok_miesiąc_dzień_godzina_minuta_sekunda'
+	--backup-dir='położenie pliku z backupami'
+	--out-dir='katalog, do którego wypakować backup'

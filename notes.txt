@@ -1,0 +1,28 @@
+man pages: use: http://www.roperzh.com/grapse/
+
+MANPATH ....
+cp command /install_dir/command.1
+gzip /install_dir/command.1
+# /install_dir on MANPATH
+man commnad
+
+---------------------
+Instalacja:
+1. Do zmiennej PATH dodać katalog ze skryptami. Np.:
+	do pliku ~/.profile dodać 
+if [ -d "$HOME/testy/gitHub/LinixBackup ] ; then
+    PATH="$PATH:$HOME/testy/gitHub/LinuxBackup"
+fi 
+
+lub w terminalu:
+export PATH="$PATH:$HOME/testy/gitHub/LinuxBackup"
+
+2. MANPAGES
+
+3. add_test.sh: przykład dodawania do backupu
+	crontan -l : sprawdznie czy dodało się do crona
+	crontab -e : ręczna edycja crona
+
+4. remove_test.sh: przykład usuwania z crona
+
+5. restore_test.sh: przykład odtwarzania plików na dany czas

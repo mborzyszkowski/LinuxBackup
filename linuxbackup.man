@@ -1,0 +1,36 @@
+.Dd 15/5/2017
+.Dt linuxbackup 1      
+.Os Linux
+.Sh NAME                 
+.Nm linuxbackup
+.Nd tworzenie kopii zapasowej przyrostowej
+.Sh SYNOPSIS
+.Nm
+.Op OPTION
+.Op OPTION="..."
+.Sh DESCRIPTION
+.Bl -tag -width -indent
+.It Fl -name='...'
+początek nazwy pliku z backupem
+.It Fl -full-interval='...'
+odstęp czasu pomędzy pełnymi backupami
+.It Fl -inc-interval='...'
+odstęp czasu pomiędzy pełnym backupem a przyrostowym lub pomiędzy przyrostowymi
+.It Fl -path='...'
+ścieżka wierzchołka drzewa katalogów do backupowania
+.It Fl -gzip='...'
+wynikiem będzie plik skompresowany programem gzip
+.It Fl -ext='...'
+lista rozszerzń plików; backupowane będą pliki z zadanego katalogu, które posiadają podane rozszerzenie
+.It Fl -backup-dir='...'
+katalog, gdzie bądą składane pliki backupów
+.It Fl h -help
+pomoc
+.It Fl v -version
+wersja programu
+.El
+.Sh Author
+Written by Maciej Borzyszkowski.
+.Sh SEE ALSO
+.Xr linuxrestore 1 
+

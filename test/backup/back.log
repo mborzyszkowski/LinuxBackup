@@ -1,0 +1,105 @@
+--------------------------
+----- FULL BACKUP --------
+----- at: 2017_05_15_00_55
+linuxbackup_full: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_full_2017_05_15_00_55.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+tar: Removing leading `/' from member names
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt
+--------------------------
+----- INCR BACKUP --------
+----- at: 2017_05_15_00_55
+linuxbackup_incr: Backup incr anulowany ponieważ istnieje FULL: /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_full_2017_05_15_00_55.tgz
+--------------------------
+----- INCR BACKUP --------
+----- at: 2017_05_15_00_56
+linuxbackup_incr: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_incr_2017_05_15_00_56.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+tar: Removing leading `/' from member names
+--------------------------
+----- INCR BACKUP --------
+----- at: 2017_05_15_00_57
+linuxbackup_incr: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_incr_2017_05_15_00_57.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+tar: Removing leading `/' from member names
+--------------------------
+----- INCR BACKUP --------
+----- at: 2017_05_15_00_58
+linuxbackup_incr: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_incr_2017_05_15_00_58.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+tar: Removing leading `/' from member names
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp
+--------------------------
+----- INCR BACKUP --------
+----- at: 2017_05_15_00_59
+linuxbackup_incr: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_incr_2017_05_15_00_59.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+tar: Removing leading `/' from member names
+--------------------------
+----- INCR BACKUP --------
+----- at: 2017_05_15_01_00
+linuxbackup_incr: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_incr_2017_05_15_01_00.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_1.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_0.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+tar: Removing leading `/' from member names
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_0.jpg
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_1.jpg
+--------------------------
+----- FULL BACKUP --------
+----- at: 2017_05_15_01_00
+linuxbackup_full: mv /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_2017_05_15_01_00_old.snar
+linuxbackup_full: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_full_2017_05_15_01_00.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_1.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_0.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+tar: Removing leading `/' from member names
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_0.jpg
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_1.jpg
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp
+--------------------------
+----- INCR BACKUP --------
+----- at: 2017_05_15_01_01
+linuxbackup_incr: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_incr_2017_05_15_01_01.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_1.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_0.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+tar: Removing leading `/' from member names
+--------------------------
+----- INCR BACKUP --------
+----- at: 2017_05_15_01_02
+linuxbackup_incr: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_incr_2017_05_15_01_02.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_1.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_0.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+tar: Removing leading `/' from member names
+--------------------------
+----- INCR BACKUP --------
+----- at: 2017_05_15_01_03
+linuxbackup_incr: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_incr_2017_05_15_01_03.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_1.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_0.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+tar: Removing leading `/' from member names
+--------------------------
+----- INCR BACKUP --------
+----- at: 2017_05_15_01_04
+linuxbackup_incr: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_incr_2017_05_15_01_04.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_1.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_0.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+tar: Removing leading `/' from member names
+--------------------------
+--------------------------
+----- FULL BACKUP --------
+----- INCR BACKUP --------
+----- at: 2017_05_15_01_05
+----- at: 2017_05_15_01_05
+linuxbackup_incr: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_incr_2017_05_15_01_05.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_1.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_0.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+linuxbackup_full: mv /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_2017_05_15_01_05_old.snar
+linuxbackup_full: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_full_2017_05_15_01_05.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_1.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_0.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+tar: Removing leading `/' from member names
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_0.jpg
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_1.jpg
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp
+/home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp
+tar: Removing leading `/' from member names
+--------------------------
+----- INCR BACKUP --------
+----- at: 2017_05_15_01_06
+linuxbackup_incr: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_incr_2017_05_15_01_06.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_1.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_0.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+tar: Removing leading `/' from member names
+--------------------------
+----- INCR BACKUP --------
+----- at: 2017_05_15_01_07
+linuxbackup_incr: tar -cvzf /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back_incr_2017_05_15_01_07.tgz -g /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/backup/back.snar /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_1.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_3.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_2.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_1.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/file_1.txt /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/img_0.jpg /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/prog_2.cpp /home/tborzyszkowski/testy/gitHub/LinuxBackup/test/files/plik_0.txt 
+tar: Removing leading `/' from member names
